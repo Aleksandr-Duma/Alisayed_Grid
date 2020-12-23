@@ -10,13 +10,20 @@
 </head>
 <body>
 	<div class="wrapper">
-		<div class="item-header"></div>
+		<div class="item-header">
+			<nav class="navigation">
+				<a href="#services" class="navigation__list link">Services</a>
+				<a href="#our-history" class="navigation__list link">Our history</a>
+				<a href="#projects" class="navigation__list link">Projects</a>
+				<a href="#contact" class="navigation__list link">Contact</a>
+			</nav>
+		</div>
 		<div class="item-grey">
 			<div class="button-wrap">
 				<button class="button-burger">
-					<span class="button-burger__item"></span>
-					<span class="button-burger__item"></span>
-					<span class="button-burger__item"></span>
+					<span class="button-burger__item top"></span>
+					<span class="button-burger__item middle"></span>
+					<span class="button-burger__item bottom"></span>
 				</button>
 			</div>
 			<div class="title-block">
@@ -29,7 +36,7 @@
 				consequat. Duis autem vel eum iriure dol.
 			</p>
 		</div>
-		<div class="item-blue">
+		<div class="item-blue" id = "services">
 			<div class="item-inner">
 				<div class="title-block color-white">
 					Drawing <span class = "title-block__span">Scketch</span>
@@ -55,7 +62,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="item-beige">
+		<div class="item-beige" id = "our-history">
 			<div class="title-block">
 				Best <span class = "title-block__span">Strarting</span>
 			</div>
@@ -64,7 +71,7 @@
 			</p>
 			<a href="#" class="item-button">View Our History</a>
 		</div>
-		<div class="item-black">
+		<div class="item-black" id = "projects">
 			<div class="title-block color-white">
 				Verified <span class = "title-block__span">Dummy</span>
 			</div>
@@ -85,7 +92,7 @@
 				<p class = "item-text color-white">Graphic Designer</p>
 			</div>
 		</div>
-		<div class="item-contact">
+		<div class="item-contact" id = "contact">
 			<div class="title-block color-white">
 				Say <span class = "title-block__span">‘Hello’</span>
 			</div>
@@ -99,15 +106,16 @@
 			</form>
 			<p class = "item-text color-white">Stay Connnected With Us...</p>
 			<div class="icon-wrapper">
-				<a href="#" class="icon-item facebook"></a>
-				<a href="#" class="icon-item dribbble"></a>
-				<a href="#" class="icon-item twitter"></a>
+				<a href="#!" class="icon-item facebook"></a>
+				<a href="#!" class="icon-item dribbble"></a>
+				<a href="#!" class="icon-item twitter"></a>
 			</div>
 			<p class = "item-text color-white">Please Feel Free To Contat With me For Any Kind of Prject.</p>
 		</div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src = "js/libs.min.js"></script>
+	<script src = "https://polyfill.io/v3/polyfill.min.js?features=scrollIntoView"></script>
 	<script src = "js/main.js"></script>
 </body>
 </html>
