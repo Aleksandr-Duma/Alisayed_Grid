@@ -5,12 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Alisayed</title>
-	<link rel="stylesheet" href="fonts/fonts.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css"> 
 </head>
 <body>
 	<div class="wrapper">
-		<div class="item-header">
+		<div class="item-header" id = "header">
 			<nav class="navigation">
 				<a href="#services" class="navigation__list link">Services</a>
 				<a href="#our-history" class="navigation__list link">Our history</a>
@@ -85,7 +84,7 @@
 				This Webpage Is <span class = "title-block__span">Designed By</span>
 			</div>
 			<div class="item-human__inner">
-				<div class="logo"></div>
+				<a href="#header" class="logo link"></a>
 				<div class="title-block color-white human-bottom">
 					<span class = "title-block__span">Ali Sayed</span>
 				</div>
@@ -106,15 +105,14 @@
 			</form>
 			<p class = "item-text color-white">Stay Connnected With Us...</p>
 			<div class="icon-wrapper">
-				<a href="#!" class="icon-item facebook"></a>
-				<a href="#!" class="icon-item dribbble"></a>
-				<a href="#!" class="icon-item twitter"></a>
+				<a href="#" class="icon-item facebook"></a>
+				<a href="#" class="icon-item dribbble"></a>
+				<a href="#" class="icon-item twitter"></a>
 			</div>
 			<p class = "item-text color-white">Please Feel Free To Contat With me For Any Kind of Prject.</p>
 		</div>
 	</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src = "js/libs.min.js"></script>
+	<!-- Polifill for smooth scrolling in IE11 -->
 	<script src = "https://polyfill.io/v3/polyfill.min.js?features=scrollIntoView"></script>
 	<script src = "js/main.js"></script>
 </body>
