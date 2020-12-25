@@ -395,7 +395,10 @@ body {
   max-width: 1920px;
   margin: 0 auto;
   display: grid;
-  grid-template-areas: "a a a a a a b b b" "c c c c d d d d d" "c c c c e e e e e" "f f f g g g g g g";
+  grid-template-areas: "a a a a a a b b b"
+ "c c c c d d d d d"
+ "c c c c e e e e e"
+ "f f f g g g g g g";
 }
 
 .title-block {
@@ -457,7 +460,7 @@ body {
 .item-header {
   grid-area: a;
   min-height: 715px;
-  background-image: url(../img/header.jpeg);
+  background-image: url(../img/header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -603,7 +606,7 @@ body {
 /*---------------------Main-content------------------*/
 .item-blue {
   grid-area: c;
-  background-image: url(../img/blue.png);
+  background-image: url(../img/blue.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px 60px 35px 60px;
@@ -623,7 +626,7 @@ body {
 
 .item-beige {
   grid-area: d;
-  background-image: url(../img/beige.png);
+  background-image: url(../img/beige.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px 60px 17px 55px;
@@ -635,7 +638,7 @@ body {
 
 .item-black {
   grid-area: e;
-  background-image: url(../img/black.png);
+  background-image: url(../img/black.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px 60px 17px 55px;
@@ -649,7 +652,7 @@ body {
 .item-human {
   grid-area: f;
   min-height: 715px;
-  background-image: url(../img/human.png);
+  background-image: url(../img/human.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -692,7 +695,7 @@ body {
 
 .item-contact {
   grid-area: g;
-  background-image: url(../img/footer.png);
+  background-image: url(../img/footer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 64px 40px 40px 55px;
