@@ -429,7 +429,7 @@ body {
 .item-button {
   text-decoration: none;
   display: inline-block;
-  max-width: 215px;
+  min-width: 215px;
   font-size: 17px;
   text-align: center;
   letter-spacing: 0.5px;
@@ -499,7 +499,7 @@ body {
 }
 
 .navigation__list {
-  width: 160px;
+  min-width: 160px;
   height: 45px;
   text-decoration: none;
   display: inline-block;
@@ -508,6 +508,7 @@ body {
   border-radius: 10px;
   font-size: 24px;
   line-height: 42px;
+  white-space: nowrap;
   text-align: center;
   font-weight: 700px;
   color: #fff;
@@ -800,7 +801,7 @@ body {
 
 .form-submit {
   display: inline-block;
-  max-width: 215px;
+  min-width: 215px;
   font-size: 17px;
   text-align: center;
   letter-spacing: 0.5px;
@@ -929,7 +930,7 @@ body {
     right: 20px;
   }
   .navigation__list {
-    width: 150px;
+    min-width: 150px;
     height: 36px;
     font-size: 20px;
     line-height: 32px;
