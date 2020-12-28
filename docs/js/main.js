@@ -3,7 +3,7 @@
 
 	const burger = document.querySelector('.button-burger');
 	const navigation = document.querySelector('.navigation');
-	const links = document.querySelectorAll('.link');
+	const links = document.querySelectorAll('a[href^="#"]');
 
 	burger.addEventListener('click', function(){
 		navigation.classList.toggle('active');
